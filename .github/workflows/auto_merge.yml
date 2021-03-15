@@ -37,6 +37,6 @@ jobs:
         fi
     - name: Push Commits
       env:
-        DOWNSTREAM_BRANCH: dev
+        DOWNSTREAM_BRANCH: master
         TZ: Asia/Shanghai
       run: git push origin $DOWNSTREAM_BRANCH
